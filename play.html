@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Neon Game — Gameplay</title>
+    <link rel="stylesheet" href="style-play.css" />
+  </head>
+  <body>
+    <div class="bg-layer"></div>
+
+    <main class="stage">
+      <!-- Video element (hidden until countdown completes) -->
+      <video
+        id="gameVideo"
+        class="game-video"
+        muted
+        playsinline
+        preload="auto"
+        crossorigin="anonymous"
+      >
+        <!-- Replace with your actual video source -->
+        <source src="assets/gameplay.mp4" type="video/mp4" />
+        Your browser doesn't support HTML5 video.
+      </video>
+
+      <!-- Canvas overlay that will match the video size -->
+      <canvas
+        id="overlayCanvas"
+        class="overlay-canvas"
+        aria-hidden="true"
+      ></canvas>
+
+      <!-- Countdown overlay -->
+      <div id="countdown" class="countdown" aria-hidden="false">
+        <div id="countText" class="count-text">3</div>
+      </div>
+
+      <!-- Bottom message shown when paused -->
+      <div id="bottomMessage" class="bottom-message hidden">
+        Mark the elephant!
+      </div>
+
+      <!-- Confirm / Cancel group -->
+      <div id="actions" class="actions hidden" role="region" aria-live="polite">
+        <button id="confirmBtn" class="neon-btn confirm">Confirm</button>
+        <button id="cancelBtn" class="neon-btn cancel">Cancel</button>
+      </div>
+    </main>
+
+    <script src="script-play.js"></script>
+  </body>
+</html>

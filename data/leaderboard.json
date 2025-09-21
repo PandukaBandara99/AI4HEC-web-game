@@ -1,0 +1,14 @@
+[
+  { "name": "Alice", "timeDifference": "2.3s", "confidence": 0.87, "score": 220 },
+  { "name": "Alice", "timeDifference": "5.6s", "confidence": 0.92, "score": 2200 },
+  { "name": "Bob", "timeDifference": "1.8s", "confidence": 0.89, "score": 1980 },
+  { "name": "Charlie", "timeDifference": "3.1s", "confidence": 0.81, "score": 1720 },
+  { "name": "David", "timeDifference": "4.4s", "confidence": 0.76, "score": 1680 },
+  { "name": "Eve", "timeDifference": "2.7s", "confidence": 0.84, "score": 1500 },
+  { "name": "Frank", "timeDifference": "3.9s", "confidence": 0.79, "score": 1450 },
+  { "name": "Grace", "timeDifference": "2.1s", "confidence": 0.91, "score": 1380 },
+  { "name": "Hannah", "timeDifference": "4.2s", "confidence": 0.88, "score": 1320 },
+  { "name": "Ivy", "timeDifference": "3.3s", "confidence": 0.82, "score": 1280 },
+  { "name": "Jack", "timeDifference": "2.5s", "confidence": 0.85, "score": 1250 },
+  { "name": "Panduka", "timeDifference": "1.1s", "confidence": 0.95, "score": 3100 }
+]
