@@ -145,7 +145,7 @@ window.addEventListener("DOMContentLoaded", () => {
     storedPlayerTimeDifference / 1000
   } S    ||  Confidence : ${storedPlayerConfidence}`;
 
-  resultText.textContent = storedPlayerScore > 3000 ? "You Won!" : "You Lost!";
+  resultText.textContent = storedPlayerScore > 1250 ? "You Won!" : "You Lost!";
   resultGif.src =
-    storedPlayerScore > 3000 ? "assets/win.gif" : "assets/lose.gif";
+    storedPlayerScore > 1250 ? "assets/win.gif" : "assets/lose.gif";
 });

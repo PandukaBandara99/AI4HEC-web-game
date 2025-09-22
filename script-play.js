@@ -420,7 +420,7 @@
           bbox_1080p.y1,
           bbox_1080p.y2
         );
-        const score = Math.round(((16150 - timestamp_ms) * iouValue) / 100);
+        const score = Math.round((((16150 - timestamp_ms)**2 * iouValue**0.5) / 100)**0.5);
         endGame(time_diff, iouValue.toFixed(2), score);
       });
     } else {
